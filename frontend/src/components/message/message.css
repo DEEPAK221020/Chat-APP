@@ -1,0 +1,58 @@
+.msg-box{
+	background-color: gainsboro;
+	padding: 1vmax;
+	margin: 0.5vmax;
+	border-radius: 0.5vmax;
+	display: inline-block;
+	width: 40%;
+	clear: both;
+}
+.righter{
+	
+	float: right;
+	background-color: rgb(43, 144, 226);
+	/* width: 50%; */
+	text-align: center;
+	color: black;
+}
+.lefter{
+	
+	float: left;
+	background-color: rgb(43, 226, 180);
+	/* width: 50%; */
+	text-align: center;
+	color: black;
+}
+/* .lefter{
+	display: flex;
+	background-color: rgb(43, 226, 180);
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	border-radius:1vmax;
+	height: 3vmax;
+	color: black;
+} */
+/* .boxer{
+	/* display: flex;
+	flex-direction: column; */
+	/* padding-left: 1vmax; */
+	/* margin-top: 1vmax; */
+/* } */ 
+/* .boxer1{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-content: flex-end;
+	align-items: flex-end;
+	padding-right: 1vmax;
+	margin-top: 1vmax;
+} */
+/* .messenger{
+	display: inline-flex;
+	flex-direction: column;
+	gap: 10px;
+} */

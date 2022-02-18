@@ -1,0 +1,20 @@
+[
+	  {
+		"Name": "John Smith",
+		"FirstName": "John",
+		"LastName": "Smith",
+		"Email": "jsmith@abc.com"
+	  },
+	  {
+		"Name": "Steven Ferguson",
+		"FirstName": "Steven",
+		"LastName": "Ferguson",
+		"Email": "sferguson@drivedata.com"
+	  },
+	  {
+		"Name": "Amanda Churchill",
+		"FirstName": "Amanda",
+		"LastName": "Churchill",
+		"Email": "achurchill@simplify.com"
+	  }
+	]
