@@ -31,17 +31,6 @@ document.getElementById('stt1').value = "";
 			setmessage([...message,data]);
 			console.log(data.user , data.message);
 	});
-<<<<<<< HEAD
-// 	socket.on('welcome', (data)=>{
-// 		setmessage([...message,data]);
-// console.log(data.user , data.message);
-// 	});
-=======
-	socket.on('welcome', (data)=>{
-		setmessage([...message,data]);
-console.log(data.user , data.message);
-	});
->>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 	socket.on('user-joined' , (data)=>{
 		setmessage([...message,data]);
 		console.log(data.user , data.message);
@@ -74,16 +63,13 @@ console.log(data.user , data.message );
 		<a href='/'><img src={closer} alt="Cancel"/></a>
 		</div> 
 		<ReactScrollToBottom className='chat-part'>
-			{/* <Message msg={message}/>
-			<Message msg="hello world"/>
-			<Message msg="hello world"/> */}
 			{message.map((item,i)=>
-                 <Message user={item.id==id ? "" : item.user} msg={item.message} classes={item.id==id ?'righter': 'lefter'} />
+                 <Message user={item.id===id ? "" : item.user} msg={item.message} classes={item.id===id ?'righter': 'lefter'} />
 			)}
         </ReactScrollToBottom>
 		<div className='inputs'>
 		<input type="text" className='input-1' id='stt1' />
-		<button onClick={sender} className='btn-2'><img src={send}/></button>
+		<button onClick={sender} className='btn-2'><img src={send} alt="" /></button>
 		</div>
 		</div>
 		</div>
