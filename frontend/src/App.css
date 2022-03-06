@@ -1,0 +1,12 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin:0px;
+  padding: 0px;
+  /* background:#ffff!important; */
+  font-family: 'Ubuntu', sans-serif;
+  }
+  .ch-pt-1{
+    color: azure;
+  }
