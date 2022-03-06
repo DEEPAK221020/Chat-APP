@@ -1,11 +1,19 @@
 const http =require('http')
 const express = require('express');
 const cors = require('cors');
+<<<<<<< HEAD
 const socketIO = require('socket.io');
 const app = express();
 const server = http.createServer(app);
 const IO = socketIO(server);
 var users=[];
+=======
+const socketIO = require('socket.io')
+const app = express();
+const server = http.createServer(app);
+const IO = socketIO(server);
+var users=[{}];
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 app.get('/' , (req ,res)=>{
 	res.send('hello world');
 });
@@ -15,7 +23,10 @@ IO.on('connection' , (socket)=>{
 	socket.on('joined' , ({user})=>{
 		users[socket.id]=user
 		// var user = this.data.user;
+<<<<<<< HEAD
 		console.log(`${users[socket.id]} hs joinnneddd`);
+=======
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 console.log(`${user} has joined the chat `);
 socket.broadcast.emit('user-joined' , {user:'Admin' , message:`${users[socket.id]} has joined`});
 	});

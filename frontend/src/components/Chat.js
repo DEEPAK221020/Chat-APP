@@ -31,10 +31,17 @@ document.getElementById('stt1').value = "";
 			setmessage([...message,data]);
 			console.log(data.user , data.message);
 	});
+<<<<<<< HEAD
 // 	socket.on('welcome', (data)=>{
 // 		setmessage([...message,data]);
 // console.log(data.user , data.message);
 // 	});
+=======
+	socket.on('welcome', (data)=>{
+		setmessage([...message,data]);
+console.log(data.user , data.message);
+	});
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 	socket.on('user-joined' , (data)=>{
 		setmessage([...message,data]);
 		console.log(data.user , data.message);

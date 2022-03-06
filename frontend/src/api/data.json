@@ -3,20 +3,29 @@
 		"Name": "John Smith",
 		"FirstName": "John",
 		"LastName": "Smith",
+<<<<<<< HEAD
 		"Email": "jsmith@abc.com",
 		"id":121
+=======
+		"Email": "jsmith@abc.com"
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 	  },
 	  {
 		"Name": "Steven Ferguson",
 		"FirstName": "Steven",
 		"LastName": "Ferguson",
+<<<<<<< HEAD
 		"Email": "sferguson@drivedata.com",
 		"id":122
+=======
+		"Email": "sferguson@drivedata.com"
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 	  },
 	  {
 		"Name": "Amanda Churchill",
 		"FirstName": "Amanda",
 		"LastName": "Churchill",
+<<<<<<< HEAD
 		"Email": "achurchill@simplify.com",
 		"id":123
 	  },
@@ -47,5 +56,8 @@
 		"LastName": "Churchill",
 		"Email": "achurchill@simplify.com",
 		"id":126
+=======
+		"Email": "achurchill@simplify.com"
+>>>>>>> 9fb4ccddcfbab125dbd7b66a364e3e6bb4ec1b12
 	  }
 	]
